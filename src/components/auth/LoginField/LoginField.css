@@ -1,0 +1,36 @@
+.login-field {
+  display: block;
+  margin: 0 0 16px;
+  color: #eee;
+}
+
+.login-field > span {
+  display: block;
+  margin: 0 0 7px;
+  font-size: 13px;
+  color: #f1f1f1;
+}
+
+.login-field input {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  background: #191919;
+  color: #fff;
+  border: 1px solid #363636;
+  border-radius: 7px;
+  padding: 0 14px;
+  outline: none;
+  transition:
+    border-color 0.15s,
+    box-shadow 0.15s;
+}
+
+.login-field input::placeholder {
+  color: #777;
+}
+
+.login-field input:focus {
+  border-color: #378bff;
+  box-shadow: 0 0 0 2px rgba(55, 139, 255, 0.08);
+}

@@ -1,0 +1,18 @@
+.role-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.role-icon.student {
+  color: #1ed879;
+}
+
+.role-icon.teacher {
+  color: #43a8ff;
+}
+
+.role-icon.admin {
+  color: #a65cff;
+}
